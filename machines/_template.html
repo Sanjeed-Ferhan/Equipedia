@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine &mdash; Equipedia</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body data-machine="__CODE__">
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo">&#9881;</div>
+        <div class="brand-text">
+          <h1>Equipedia</h1>
+          <p>Machine Knowledge Hub</p>
+        </div>
+      </div>
+      <div class="header-spacer"></div>
+    </div>
+  </header>
+
+  <main class="container detail">
+    <a class="back-link" href="../index.html">&larr; Back to all machines</a>
+
+    <div class="detail-title">
+      <div class="card-icon" id="mIcon">&#9881;</div>
+      <div>
+        <h2 id="mName">Machine</h2>
+        <p class="meta"><span id="mCode"></span> &middot; <span class="badge online" id="mStatus">Running</span></p>
+      </div>
+    </div>
+
+    <section class="panel">
+      <h4>Specifications</h4>
+      <div class="spec-grid" id="mSpecs"></div>
+    </section>
+
+    <section class="panel">
+      <h4>Documents &amp; Links</h4>
+      <ul class="doc-list">
+        <li><a href="#">Operating Manual (PDF)<span>&#8599;</span></a></li>
+        <li><a href="#">Maintenance SOP<span>&#8599;</span></a></li>
+        <li><a href="#">Preventive Maintenance Schedule<span>&#8599;</span></a></li>
+        <li><a href="#">Spare Parts List<span>&#8599;</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Equipedia &middot; Internal machine reference</div>
+  </footer>
+
+  <script src="../js/machines.js"></script>
+  <script src="../js/detail.js"></script>
+</body>
+</html>
